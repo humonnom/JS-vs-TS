@@ -1,0 +1,27 @@
+{
+  "name": "js-vs-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s",
+    "watch": "watch 'npm run build' ./ts_src",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humonnom/JS-vs-TS.git"
+  },
+  "author": "humonnom <josojoso0702@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humonnom/JS-vs-TS/issues"
+  },
+  "homepage": "https://github.com/humonnom/JS-vs-TS#readme",
+  "dependencies": {
+    "serve": "^13.0.2",
+    "typescript": "^4.6.4",
+    "watch": "^1.0.2"
+  }
+}
